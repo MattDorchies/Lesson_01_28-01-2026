@@ -2,8 +2,12 @@ body {
     background-color: #04151A;
 }
 
-h1 {
+.h1_type {
     color: #ff8200;
     text-transform: uppercase;
+    font-family: "Audiowide", sans-serif;
+    text-align: center;
+    font-display: block;
 }
+
 /*#ff8200*/
