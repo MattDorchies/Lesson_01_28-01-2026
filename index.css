@@ -4,5 +4,6 @@ body {
 
 h1 {
     color: #ff8200;
+    text-transform: uppercase;
 }
 /*#ff8200*/
