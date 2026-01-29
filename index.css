@@ -1,5 +1,5 @@
 body {
-    background-color: #04151A;
+    background-color: rgb(18, 18, 24);
 }
 
 .h1_type {
@@ -7,7 +7,44 @@ body {
     text-transform: uppercase;
     font-family: "Audiowide", sans-serif;
     text-align: center;
-    font-display: block;
 }
-
+.shipsArray {
+    color: #ff8200;
+    font-family: "Audiowide", sans-serif;
+    text-align: center;
+}
+.shipArray:first-child {
+    padding: 15px;
+    border-left: solid #ff8200;
+    border-right: solid #ff8200;
+    border-top: solid #ff8200;
+    border-width: 5px;
+}
+.shipArray:last-child {
+    padding: 15px;
+    border: solid #ff8200;
+    border-width: 5px;
+}
+.shipArray:not(:first-child):not(:last-child) {
+    padding: 15px;
+    border-left: solid #ff8200;
+    border-right: solid #ff8200;
+    border-top: solid #ff8200;
+    border-width: 5px;
+}
+.pellet {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+.pellet.green {
+    background-color: lime;
+}
+.pellet.red {
+    background-color: red;
+}
+.pelletCenter {
+    display: flex;
+    justify-content: center;
+}
 /*#ff8200*/
